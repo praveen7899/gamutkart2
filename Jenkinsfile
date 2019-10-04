@@ -8,7 +8,7 @@ pipeline {
 		    }
 		stage('Build') {
 	        steps {
-				sh 'mvn install'
+				sh ('/opt/softwares/apache-maven-3.6.2/bin/mvn install')
 	        }
 		}
 	}
